@@ -6,6 +6,8 @@ To verify the application of multi-agent reinforcement learning in Low Earth Orb
 
 ![image](https://github.com/Cinnnamon-Boy/Constellation-Network-Simulator/blob/main/frame.png)
 
+The simulation configuration for the paper are saved in the [configuration folder](https://github.com/Cinnnamon-Boy/Constellation-Network-Simulator/tree/main/configuration).
+The code of Python for Deep Reinforcement Learning is saved in the [RLRouting folder](https://github.com/Cinnnamon-Boy/Constellation-Network-Simulator/tree/main/RLRouting).
 The experimental data for the paper are saved in the [experiment folder](https://github.com/Cinnnamon-Boy/Constellation-Network-Simulator/tree/main/experiment).
 
 ## Required Modules

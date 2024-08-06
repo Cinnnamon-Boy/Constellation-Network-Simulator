@@ -1,0 +1,19 @@
+{
+	"NETWORK": {
+		"memory_batch_size": 200,
+		"memory_bank_size":20000,
+		"optimizer_learning_rate": 0.00003,
+		"dropout": 0.1,
+		"alpha":0.2,
+		"num_hidden": 500,
+		"num_heads_attention": 32,
+		"epsilon_greedy": 0.5,
+		"num_out_route": 4
+	},
+	"AGENT": {
+		"gamma_for_next_q_val": 0.9,
+		"use_random_sample_memory": 1,
+		"use_most_recent_memory": 0,
+		"use_priority_memory": 0
+	}
+}
