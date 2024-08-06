@@ -1,0 +1,20 @@
+[    0.0 -     0.0] (0.0 s) :: Configure run and logs directory
+[    0.0 -     0.0] (0.0 s) :: Configure simulator
+[    0.0 -     0.1] (0.1 s) :: Read file of Satellites
+[    0.1 -     0.1] (0.0 s) :: Read user terminals
+[    0.1 -     0.3] (0.2 s) :: Install Internet stack (incl. routing) on nodes
+[    0.3 -     0.3] (0.0 s) :: Read ISLs
+[    0.3 -     1.1] (0.7 s) :: Create ISLs and edge-to-interface-index mapping
+[    1.1 -     1.4] (0.4 s) :: Create Service Links
+[    1.4 -     8.9] (7.4 s) :: Set up reinforcement learning routing protocol.
+[    8.9 -    12.5] (3.7 s) :: Generate pass lists for every user terminals
+[   12.5 -    12.6] (0.0 s) :: Read UDP burst schedule
+[   12.6 -    12.6] (0.0 s) :: Remove previous UDP burst log files
+[   12.6 -    12.6] (0.0 s) :: Setup UDP burst servers
+[   12.6 -    12.6] (0.0 s) :: Filter UDP burst schedule for this system
+[   12.6 -    12.6] (0.0 s) :: Schedule start of first UDP burst client
+[   12.6 -    12.6] (0.0 s) :: Whatever is between previous timestamp and the simulation run
+[   12.6 - 17834.1] (17821.5 s) :: Run simulation
+[17834.1 - 17834.1] (0.0 s) :: Write UDP burst log files
+[17834.1 - 17834.3] (0.3 s) :: Destroy simulator
+[17834.3 - 17834.3] (0.0 s) :: Reset configuration

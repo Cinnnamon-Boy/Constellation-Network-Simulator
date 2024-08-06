@@ -1,0 +1,20 @@
+Configure run and logs directory,67938
+Configure simulator,142237
+Read file of Satellites,72129764
+Read user terminals,7048790
+Install Internet stack (incl. routing) on nodes,241484909
+Read ISLs,1319315
+Create ISLs and edge-to-interface-index mapping,697473466
+Create Service Links,368913649
+Set up reinforcement learning routing protocol.,8091638342
+Generate pass lists for every user terminals,3498751016
+Read UDP burst schedule,323016
+Remove previous UDP burst log files,10550
+Setup UDP burst servers,3076019
+Filter UDP burst schedule for this system,13265
+Schedule start of first UDP burst client,9087
+Whatever is between previous timestamp and the simulation run,6252
+Run simulation,18267897908325
+Write UDP burst log files,1572943
+Destroy simulator,242660286
+Reset configuration,176562
